@@ -12,12 +12,11 @@ export default class Inicioclinica extends React.Component {
   static navigationOptions = {
     header: null,
   };
-
-    
+  
   render() {
     return (
       <View style={styles.fondo}>
-        <Text>hola mundo</Text>
+        <Text>hola </Text>
       </View>
     )}};
 
