@@ -1,21 +1,17 @@
 import React from 'react';
-import {ScrollView, StyleSheet,ImageBackground} from 'react-native';
+import {Image, FlatList, ScrollView, StyleSheet,Text,TouchableOpacity,View,ImageBackground} from 'react-native';
 import { Dimensions } from "react-native";
 
 var width = Dimensions.get('window').width; //full width
 var height = Dimensions.get('window').height; //full height
 
 //imagenes 
-import Fondo  from '../assets/images/fondo-inicio.png' 
+import Fondo  from '../assets/images/fondo-cursos.png' 
 
 //componentes
-import EspacioMax  from '../Components/Inicio//Espacio' 
-import EspacioMin  from '../Components/test/Espacio' 
-import Cabecera  from '../Components/Inicio/Cabecera' 
+import Atras  from '../Components/Desarrollo/Atras' 
+import Cabecera  from '../Components/Desarrollo/Cabecera' 
 import Item  from '../Components/Inicio/Item' 
-import Slider  from '../Components/Inicio/Slider' 
-import Examen  from '../Components/Inicio/Examen' 
-import Promocion  from '../Components/Inicio/Promocion'
 
 export default class Inicioclinica extends React.Component {
   static navigationOptions = {
@@ -25,16 +21,8 @@ export default class Inicioclinica extends React.Component {
   render() {
     return (
       <ImageBackground resizeMode={"cover"} source={Fondo} style={styles.fondo}>
-        <EspacioMax/>
+        <Atras/>
         <Cabecera/>
-        <Item/>
-        <ScrollView showsVerticalScrollIndicator={false}>
-        <EspacioMin/>
-        <Slider/>
-        <Examen/>
-        <Promocion/>
-        
-        </ScrollView>
       </ImageBackground>
     )}};
 

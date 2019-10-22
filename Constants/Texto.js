@@ -1,51 +1,35 @@
 import { RFPercentage, RFValue,} from "react-native-responsive-fontsize";
 
 const Texto = {
-    titulo: RFPercentage(4.4),
-    principal: RFPercentage(3.4),
-    segundario: RFPercentage(3.5),
-    menu: 29,
-    boton: RFPercentage(4.5),
-    
-
-    //inicio Navbar
-    dra: RFPercentage(3.8),
-    nombre: RFPercentage(3.2),
-
-    //menu
-    opciones: RFPercentage(3),
-
-    //odontograma
-    odontogramamenu: RFPercentage(3.2),
-    odontogramatitulo: RFPercentage(2.4),
-
-    //graficas
-    pacientesnumero: RFPercentage(7.4),
-    pacientestexto: RFPercentage(3.5),
-    nombreedad: RFPercentage(2.3),
-
-
-    //opacidad de cuadros
-    opacidad: 0.9,
 
     //Iconos
-    Iconatras: RFPercentage(5.0),
-    Iconlogo: RFPercentage(20.0),
+    atras: RFPercentage(4.5),
+    Notificacion: RFPercentage(5.5),
+    Perfil: RFPercentage(5.9),
 
-    //vistas segundarioas
-    Textoprimario: RFPercentage(3.2),
-    Textosegundario: RFPercentage(2.1),
 
-    //botones input 
-    btninput: 30,
+    //Cabecera
+    titulo: RFPercentage(4.4),
+    principal: RFPercentage(3.4),
+    nombre: RFPercentage(2.9),
 
-    //vistas
-    espacioscortos: 10,
-    espacioslargos: 40,
 
-    //preguntas
-    Preguntas: RFPercentage(2.1),
+    //Item
+    Numeral: RFPercentage(5.3),
+    Dev: RFPercentage(2.7),
+    
 
+    //Slider
+    Slideralto: RFPercentage(32.5),
+    Sliderancho: RFPercentage(23.2),
+    titulo_Slider: RFPercentage(3.0),
+
+
+    //botones
+    Btn_Titulo: RFPercentage(3.3),
+    Btn_Subtitulo: RFPercentage(2.2),
+   
+    
   }
   
   export default Texto;
