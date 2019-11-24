@@ -7,3 +7,5 @@ Se realizara exámenes en linea para llevar un proceso y formación de cada estu
 <br>
 <img heigth="700" src="https://i.ibb.co/vcZr65Z/Captura-de-pantalla-2019-11-20-a-la-s-5-30-27-p-m.png"> 
 <br>
+
+**(diseño de app terminada)**
