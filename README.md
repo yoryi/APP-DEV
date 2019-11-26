@@ -9,3 +9,6 @@ Se realizara exámenes en linea para llevar un proceso y formación de cada estu
 <br>
 
 **(diseño de app terminada)**
+Autor: jorginho Ojeda
+si usas esta app para ventas u apropiarte, sera sancionado.
+Licence. 2019
